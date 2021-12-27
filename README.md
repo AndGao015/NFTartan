@@ -1,2 +1,2 @@
 # NFTartan
-NFT marketplace project
+NFT display project
