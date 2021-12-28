@@ -7,9 +7,17 @@ const FilterContainer = () => {
   const numCollectibles = 42069;
   const numSelected = 0;
   return (
-    <div>
-      <div class="collectible-text">
-        {numCollectibles} Collectibles ({numSelected} Selected)
+    <div className="flex-container">
+      <div className="flex-child collectible">
+        <div className="collectible-text">
+          {numCollectibles} Collectibles ({numSelected} Selected)
+        </div>
+      </div>
+
+      <div className="flex-child btn">
+        <button className="share-btn">
+          Create a Shareable Link!
+        </button>
       </div>
     </div>
   )

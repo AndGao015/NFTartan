@@ -1,6 +1,37 @@
 .collectible-text {
   text-align: left;
+  display: inline;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   margin: 0.5rem;
+}
+
+.share-btn {
+  text-align: center;
+  background-color: #12A343;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 6px 18px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: none;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 5.0rem;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:nth-child(1) {
+  margin-right: 1.0rem;
+}
+
+.flex-child:nth-child(2) {
+  text-align: right;
 }

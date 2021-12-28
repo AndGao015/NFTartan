@@ -5,11 +5,13 @@ import '../styles/Display.css'
 
 const Display = () => {
   return (
-    <div class="display-page">
-      <div class="filter-container">
+    <div className="display-page">
+      <div className="filter-container">
         <FilterContainer />
       </div>
-      <div class="display-container">
+
+      <div className="display-container">
+        <CollectibleContainer />
       </div>
     </div>
   )
