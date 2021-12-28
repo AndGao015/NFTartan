@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="navbar-top">
+    <div>
       <div className="navbar-top">
         <Navbar />
       </div>
