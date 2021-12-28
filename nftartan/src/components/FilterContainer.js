@@ -11,18 +11,34 @@ const FilterContainer = () => {
     alert("Under construction...")
   }
 
+  const handleDropdownBtnClick = () => {
+    alert("Under construction...")
+  }
+
   return (
     <div className="flex-container">
       <div className="flex-child collectible">
+
         <div className="collectible-text">
           {numCollectibles} Collectibles ({numSelected} Selected)
         </div>
+
+        {/* Create dropdown sort menus here */}
+        <div className="dropdown-filter">
+          <button onClick={() => handleDropdownBtnClick()}>
+            Recent
+          </button>
+        </div>     
       </div>
 
       <div className="flex-child btn">
+
         <button onClick={() => handleShareBtnClick()}className="share-btn">
           Create a Shareable Link!
         </button>
+
+        {/* Create toggleable NFT wallet buttons here */}
+
       </div>
     </div>
   )
