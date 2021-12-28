@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/FilterContainer.css'
 
 const FilterContainer = () => {
   // numCollectibles, numSelected to be replaced w/ returned backend info
   // from ID's NFT wallet
-  const numCollectibles = 42069;
-  const numSelected = 1337;
+  const [numCollectibles, setNumCollect] = useState(42069);
+  const [numSelected, setNumSelect] = useState(1337);
 
-  const handleShareBtn = () => {
-    alert("Under construction")
+  const handleShareBtnClick = () => {
+    alert("Under construction...")
   }
 
   return (
@@ -20,7 +20,7 @@ const FilterContainer = () => {
       </div>
 
       <div className="flex-child btn">
-        <button onClick={() => handleShareBtn()}className="share-btn">
+        <button onClick={() => handleShareBtnClick()}className="share-btn">
           Create a Shareable Link!
         </button>
       </div>
