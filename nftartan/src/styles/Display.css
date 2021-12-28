@@ -1,0 +1,13 @@
+.display-container {
+  padding: 20rem;
+  border-radius: 0.25rem;
+  background-color: #373943;
+}
+
+.display-page {
+  margin: 3.0rem;
+}
+
+.filter-container {
+  margin-bottom: 5.0rem;
+}
