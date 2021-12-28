@@ -1,0 +1,46 @@
+.landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 128px;
+}
+
+.model {
+  background-color: rgb(54, 54, 54);
+  padding: 150px;
+  margin-right: 64px;
+}
+
+.landing-contents {
+  height: 300px;
+  width: 500px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h3.landing-title {
+  color: white;
+  font-size: 36px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.landing-input {
+  margin-top: 48px;
+  border-radius: 20px;
+  height: 40px;
+  width: 450px;
+  min-width: 450px;
+  padding-inline: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.landing-input.empty {
+  color: grey;
+  text-align: center;
+}
