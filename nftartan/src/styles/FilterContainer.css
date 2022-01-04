@@ -3,7 +3,7 @@
   display: inline;
   color: #FFFFFF;
   font-family: 'Oswald', sans-serif;
-  font-size: 2.25rem;
+  font-size: 2.50rem;
 }
 
 .share-btn {
@@ -19,6 +19,7 @@
   border: none;
   justify-content: space-between;
   margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .flex-container {
@@ -36,6 +37,7 @@
 
 .flex-child:nth-child(2) {
   text-align: right;
+  margin-top: 0.6rem;
 }
 
 .flex-dropdown-container {
@@ -44,6 +46,10 @@
 
 .flex-child-dropdown:nth-child(1) {
   margin-right: 0.5rem;
+}
+
+.flex-child-dropdown{
+  margin-top: 0.5rem;
 }
 
 .flex-switch-container {
