@@ -13,8 +13,8 @@ function App() {
       <Helmet>
         <style>{"body { background-color: #212121; }"}</style>
       </Helmet>
-      <LandingPage />
-      {/* <Display /> */}
+      {/* <LandingPage /> */}
+      <Display />
     </div>
   );
 }
