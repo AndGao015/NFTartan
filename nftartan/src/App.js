@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div>
       {/* using React Helmet Library to set placeholder background color */}
