@@ -4,6 +4,7 @@ import Display from "./pages/Display";
 import LandingPage from "./pages/LandingPage";
 import Model from "./components/Model";
 import { Helmet } from "react-helmet";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Helmet>
         <style>{"body { background-color: #212121; }"}</style>
       </Helmet>
+      <Navbar />
       {/* <LandingPage /> */}
       <Display />
     </div>
