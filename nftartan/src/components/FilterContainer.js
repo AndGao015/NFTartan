@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import DropFilter from '../components/DropFilter'
+import ViewSwitch from '../components/ViewSwitch'
 import '../styles/FilterContainer.css'
 
 const FilterContainer = () => {
@@ -17,28 +19,34 @@ const FilterContainer = () => {
 
   return (
     <div className="flex-container">
-      <div className="flex-child collectible">
+      <div className="flex-child left">
 
         <div className="collectible-text">
           {numCollectibles} Collectibles ({numSelected} Selected)
         </div>
 
         {/* Create dropdown sort menus here */}
-        <div className="dropdown-filter">
-          <button onClick={() => handleDropdownBtnClick()}>
-            Recent
-          </button>
+        <div className="flex-dropdown-container">
+          <div className="flex-child-dropdown">
+            <DropFilter text="Recent"/>
+          </div>
+          <div className="flex-child-dropdown">
+            <DropFilter text="All"/>
+          </div>
         </div>     
+
       </div>
 
-      <div className="flex-child btn">
+      <div className="flex-child right">
 
-        <button onClick={() => handleShareBtnClick()}className="share-btn">
+        <button onClick={() => handleShareBtnClick()} className="share-btn">
           Create a Shareable Link!
         </button>
 
         {/* Create toggleable NFT wallet buttons here */}
-
+        <div className="flex-switch-container">
+          <ViewSwitch />
+        </div>
       </div>
     </div>
   )
