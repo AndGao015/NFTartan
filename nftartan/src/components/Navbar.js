@@ -35,8 +35,8 @@ const Navbar = () => {
             textAlign: "right",
           }}
         >
-          For testing purposes
-          <h3>{window.solana.publicKey.toString()}</h3>
+          <span>For testing purposes</span>
+          <h4>{window.solana.publicKey.toString()}</h4>
         </div>
       );
     } else {

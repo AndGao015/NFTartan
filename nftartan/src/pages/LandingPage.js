@@ -6,8 +6,6 @@ import "../styles/LandingPage.css";
 const LandingPage = () => {
   return (
     <>
-
-      <Navbar />
       <div className="landing-container">
         <Model className="model" />
         <div className="landing-contents">
